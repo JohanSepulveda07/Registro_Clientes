@@ -1,0 +1,46 @@
+body{background-image: url(fondo-abstracto-codigo-binario_6735-1002.avif);}
+ *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.MiEstilo {
+	width: 400px;
+	background:;
+	padding: 15px;
+	margin: auto;
+	margin-top: 200px;
+	border-radius: 20px;
+	font-family: 'calibri';
+	color: white;
+	box-shadow: 2px 4px 15px #0312e6;
+}
+
+.MiEstilo h4 {
+    text-align: center;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.caja{
+	width: 100%;
+	background: rgb(255, 255, 255);
+	padding: 10px;
+	border: 1px solid #2c3435;
+	border-radius: 7px;
+	margin-bottom: 16px;
+	font-family: 'calibri';
+	font-size: 18px;
+}
+
+
+.botones{
+	width: 100%;
+	background: #1f46c5;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+}

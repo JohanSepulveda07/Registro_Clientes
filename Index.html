@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bienvenida</title>
+    <link rel="stylesheet" type="text/css" href="Estilos.css">
+</head>
+<body>
+    <section class="MiEstilo">
+        <h2>Bienvenido</h2>
+        <div id="mensajeBienvenida" class="mensaje">
+        </div>
+        <p>Gracias por registrarte con nosotros.</p>
+    </section>
+    <script src="Direct.js"></script>
+    <script>
+        var nombres = localStorage.getItem('nombres');
+        var apellidos = localStorage.getItem('apellidos');
+        var mensaje = '' + nombres + ' ' + apellidos + '.';
+        document.getElementById('mensajeBienvenida').innerHTML = mensaje;
+    </script>
+</body>
+</html>

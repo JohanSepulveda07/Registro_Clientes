@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CONTROL DE ACCESO</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="Direct.js"></script>
+</head>
+<body>
+    <section class="MiEstilo">
+        <h4>Registro de Clientes</h4>
+        <form id="registroForm" onsubmit="redirect(event)">
+            <label for="lang">Tipo de documento</label>
+            <select name="Tipo" id="lang">
+                <option value="Selecionar">Seleccionar</option>
+                <option value="Cedula de ciudadania">Cedula</option>
+                <option value="Cedula de extranjeria">Cedula de extranjeria</option>
+                <option value="Pasaporte">Pasaporte</option>
+                <option value="Tarjeta de identidad">Tarjeta de identidad</option>
+            </select>
+            <br><br>
+            <input class="caja" type="text" name="identificacion" id="identificacion" placeholder="Número de documento" >
+            <input class="caja" type="text" name="nombres" id="nombres" placeholder="Nombres" >
+            <input class="caja" type="text" name="apellidos" id="apellidos" placeholder="Apellidos" >
+            <input class="caja" type="email" name="correo electronico" id="correo electronico" placeholder="Correo electronico" >
+            <input class="caja" type="text" name="usuario" id="usuario" placeholder="Usuario" >
+            <input class="caja" type="password" name="clave" id="clave" placeholder="Contraseña (Min 7 Max 10 caracteres)" >
+            <input class="caja" type="password" name="confirmacion_clave" id="confirmacion_clave" placeholder="Confirmacion de contraseña">
+            <p>Estoy de acuerdo con los <a href="https://es.wikipedia.org/wiki/N%C3%A9stor_Lorenzo">Términos y condiciones</a> <input type="checkbox" id="checkbox"</p>
+            <input class="botones" type="submit" value="Ingresar">
+        </form>
+    </section>
+</body>
+</html>
